@@ -13,7 +13,7 @@ This uses:
 
 ## Deploying
 
-1. Download a [GPT4ALL model](https://gpt4all.io/index.html). For this I used [ggml-model-gpt4all-falcon-q4_0.bin](https://huggingface.co/nomic-ai/gpt4all-falcon-ggml/resolve/main/ggml-model-gpt4all-falcon-q4_0.bin) because it is a small model (4GB...) which has good responses. Other models should work, but they need to be small enough to fit in the Lambda memory limits.
+1. Download a [GPT4ALL model](https://gpt4all.io/index.html). For this I used [gpt4all-falcon-newbpe-q4_0.gguf](https://gpt4all.io/models/gguf/gpt4all-falcon-newbpe-q4_0.gguf) because it is a small model (4GB...) which has good responses. Other models should work, but they need to be small enough to fit in the Lambda memory limits.
 
 2. Place the `bin` file inside the `function` folder, next to the lambda_function.py file.
 
